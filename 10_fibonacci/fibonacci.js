@@ -1,4 +1,9 @@
-const fibonacci = function() {
+const fibonacci = function(n) {
+
+    if (n <= 2 && n >= 0 ) return n
+    if (n < 0) return "OOPS"
+
+    
 
 };
 
